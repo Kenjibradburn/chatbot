@@ -1,0 +1,49 @@
+{
+  "userSays": [],
+  "id": "78710c99-9547-44a4-bef0-c60afa995c41",
+  "name": "bbchat-ccdebt-apr-fb",
+  "auto": false,
+  "contexts": [
+    "bbchat-ccdebt-apr"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-ccdebt-apr",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry, I didn\u0027t quite get that",
+            "I am not sure what you mean",
+            "I missed that"
+          ]
+        },
+        {
+          "title": "Can you respond with a number or a percentage (e.g., 5 or 5%) ? Thanks.",
+          "replies": [
+            "Below 5%",
+            "5%-10%",
+            "11%-20%",
+            "21%-30%",
+            "Above 30%",
+            "I don\u0027t know",
+            "Doesn\u0027t apply"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

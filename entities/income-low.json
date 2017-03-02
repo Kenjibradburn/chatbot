@@ -1,0 +1,16 @@
+{
+  "id": "d019f6fc-c7c7-4063-bb31-1f605d033ab0",
+  "name": "income-low",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "below $25,000",
+      "synonyms": [
+        "below $25,000",
+        "lowest"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

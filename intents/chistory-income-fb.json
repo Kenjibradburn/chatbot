@@ -1,0 +1,46 @@
+{
+  "userSays": [],
+  "id": "5781e3c2-563f-4b01-878c-c3fbe84b8b74",
+  "name": "chistory-income-fb",
+  "auto": false,
+  "contexts": [
+    "chistory-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "chistory-income",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Oops. I missed that.",
+            "Sorry, I am not sure what you mean."
+          ]
+        },
+        {
+          "title": "Can you use one of the categories below?",
+          "replies": [
+            "Below $25,000",
+            "$25,000-50,000",
+            "$50,000-75,000",
+            "$75,000-100,000",
+            "Above $100,000"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

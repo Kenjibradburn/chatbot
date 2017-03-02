@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "c96b6380-b1e7-48e6-a35d-e6f50808ac05",
+      "data": [
+        {
+          "text": "Get callback"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72f16a35-761c-4fed-94b3-0db0953226cf",
+      "data": [
+        {
+          "text": "Call back"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c345a54c-e76a-4af0-ab38-0bbff41e9c6d",
+  "name": "bbrep-callback",
+  "auto": true,
+  "contexts": [
+    "bbrep"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "callback",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sure!",
+            "No problem."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "All I need is your first name, phone number, and email address and I\u0027ll get a call scheduled."
+        },
+        {
+          "type": 0,
+          "speech": "Let\u0027s start with your first name."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,79 @@
+{
+  "userSays": [
+    {
+      "id": "affec2b2-6c10-436e-b99f-b81fb9219cda",
+      "data": [
+        {
+          "text": "0",
+          "alias": "debt-na",
+          "meta": "@debt-na",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "013a893b-5333-4d5c-ba4b-0bf4c46cedf7",
+      "data": [
+        {
+          "text": "No idea",
+          "alias": "debt-na",
+          "meta": "@debt-na",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb612276-b092-4eac-9520-98ede5669ffa",
+      "data": [
+        {
+          "text": "None",
+          "alias": "debt-na",
+          "meta": "@debt-na",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9e95d491-f201-4b5c-9237-eb8034d58169",
+  "name": "bbchat-ccdebtna-autodebt",
+  "auto": true,
+  "contexts": [
+    "bbchat-ccdebt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-autodebt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@debt-na",
+          "name": "debt-na",
+          "value": "$debt-na",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "How much of that debt is on your automobile loan?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

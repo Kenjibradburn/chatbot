@@ -1,0 +1,31 @@
+{
+  "id": "40445b8d-efcd-40b6-9ddb-164d98c3d670",
+  "name": "debt-na",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "0",
+      "synonyms": [
+        "0",
+        "0$",
+        "Nothing",
+        "None",
+        "zero",
+        "no"
+      ]
+    },
+    {
+      "value": "I don\u0027t know",
+      "synonyms": [
+        "I don\u0027t know",
+        "Don\u0027t know",
+        "No idea",
+        "No clue",
+        "dont konw",
+        "dont know"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

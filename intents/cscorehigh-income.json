@@ -1,0 +1,60 @@
+{
+  "userSays": [
+    {
+      "id": "3814ce27-85c8-49b4-ace9-9d1490fa4972",
+      "data": [
+        {
+          "text": "Above 680",
+          "alias": "cscorehigh",
+          "meta": "@cscorehigh",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "3154d4ab-97c1-4b3e-ae8a-5aa120f40162",
+  "name": "cscorehigh-income",
+  "auto": true,
+  "contexts": [
+    "mortgage-cscore"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cscorehigh-income",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@cscorehigh",
+          "name": "cscorehigh",
+          "value": "$cscorehigh",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "The next critical factor is your household income - please pick the range you\u0027re in.",
+          "replies": [
+            "Below $25,000",
+            "$25,000-50,000",
+            "$50,000-75,000",
+            "$75,000-100,000",
+            "Above $100,000"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

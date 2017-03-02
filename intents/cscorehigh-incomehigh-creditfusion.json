@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "22f7716d-dc3c-402a-a498-6aa6ab15bf25",
+      "data": [
+        {
+          "text": "Above $100,000",
+          "alias": "income-above50k",
+          "meta": "@income-above50k",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49140504-8074-425d-9618-f6f54841e1d5",
+      "data": [
+        {
+          "text": "$50,000-75,000",
+          "alias": "income-above50k",
+          "meta": "@income-above50k",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "18349d0f-e218-44f5-8a8d-14c0b741871d",
+      "data": [
+        {
+          "text": "$75,000-100,000",
+          "alias": "income-above50k",
+          "meta": "@income-above50k",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "b7e48cb7-c35a-4a68-b644-d996f7b4891e",
+  "name": "cscorehigh-incomehigh-creditfusion",
+  "auto": true,
+  "contexts": [
+    "cscorehigh-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cscorehigh-incomehigh-creditfusion",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@income-above50k",
+          "name": "income-above50k",
+          "value": "$income-above50k",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great to hear! Based on your score and income I\u0027m guessing you would qualify for a pretty good interest rate. Of course that depends on a lot of other factors like your location, the type of property, and your DTI. For the most accurate mortgage calculations I would recommend speaking with a Mortgage Readiness Coach."
+        },
+        {
+          "title": "Would you like to speak with one of them now? I\u0027d be happy to make an introduction.",
+          "replies": [
+            "Let\u0027s Talk!",
+            "Not right now"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

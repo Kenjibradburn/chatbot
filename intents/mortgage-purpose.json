@@ -1,0 +1,43 @@
+{
+  "userSays": [
+    {
+      "id": "d94637b4-2004-4c8f-bcca-fe91220ac892",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "1e3420ae-906d-4c1c-8ee5-c85660031dc1",
+  "name": "mortgage-purpose",
+  "auto": true,
+  "contexts": [
+    "mortgage"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "purpose",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay. Can you tell what you are looking for then?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

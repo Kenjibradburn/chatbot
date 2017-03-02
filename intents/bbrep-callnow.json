@@ -1,0 +1,58 @@
+{
+  "userSays": [
+    {
+      "id": "b68aa188-d4e9-4ebb-aff4-2b36129cbbb8",
+      "data": [
+        {
+          "text": "now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9196052-5854-42f3-b47a-988f16b94cb1",
+      "data": [
+        {
+          "text": "call"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "771bcf14-4aa6-434f-b782-ed383cfad1fe",
+      "data": [
+        {
+          "text": "Call now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bd7995b1-b7f0-4a64-9871-be9e870bfcd8",
+  "name": "bbrep-callnow",
+  "auto": true,
+  "contexts": [
+    "bbrep"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "PLACEHOLDER: Call Bradburn"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

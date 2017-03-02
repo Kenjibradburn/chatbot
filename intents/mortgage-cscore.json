@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "44e8892f-2e16-44b0-9acf-915b8911101f",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "2c333563-b460-4c10-be4a-54813d1a1184",
+  "name": "mortgage-cscore",
+  "auto": true,
+  "contexts": [
+    "mortgage"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "mortgage-cscore",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Great!",
+            "Cool!"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I\u0027ll help you with the calculations to figure out what you can afford and how much your monthly payments will be. There are a couple of key factors in what kind of mortgage you can get."
+        },
+        {
+          "title": "Most important is your credit score, do you happen to know what that is?",
+          "replies": [
+            "Below 550",
+            "550-620",
+            "620-640",
+            "640-680",
+            "Above 680",
+            "I don\u0027t know"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

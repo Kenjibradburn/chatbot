@@ -1,0 +1,27 @@
+{
+  "id": "da19a1ae-da06-4fed-8136-697c0df0e898",
+  "name": "income-above50k",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "$50,000-75,000",
+      "synonyms": [
+        "$50,000-75,000"
+      ]
+    },
+    {
+      "value": "$75,000-100,000",
+      "synonyms": [
+        "$75,000-100,000"
+      ]
+    },
+    {
+      "value": "Above $100,000",
+      "synonyms": [
+        "Above $100,000"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

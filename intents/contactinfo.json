@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "30128f1f-78af-4cf1-bcc8-6844076f8e2f",
+      "data": [
+        {
+          "text": "Not right now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8577de38-52fe-4f37-998a-57f7133bcbfc",
+  "name": "contactinfo",
+  "auto": true,
+  "contexts": [
+    "mortgage-cscorehigh-income50plus"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "contactinfo",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, no problem!"
+        },
+        {
+          "type": 0,
+          "speech": "I can email you their contact information so you can call them with questions at any time. What\u0027s the best email address for you?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

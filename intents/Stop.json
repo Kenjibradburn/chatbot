@@ -1,0 +1,56 @@
+{
+  "userSays": [
+    {
+      "id": "30c06a9d-0baf-4087-813d-a83c2d219f5d",
+      "data": [
+        {
+          "text": "Quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a790f58-0630-41c7-8f1b-0e1b0d15724e",
+      "data": [
+        {
+          "text": "Stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3684b38b-6322-4d0a-989b-6594c97690c4",
+      "data": [
+        {
+          "text": "Goodbye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a2642bb0-f711-47a7-a082-6d288f60f9ec",
+  "name": "Stop",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Goodbye"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

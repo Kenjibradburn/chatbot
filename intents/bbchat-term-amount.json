@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "86bd9241-19d1-467c-a26c-4288040d6100",
+      "data": [
+        {
+          "text": "Not sure",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec7f5809-12fd-44a8-be1b-cdab990c4aa9",
+      "data": [
+        {
+          "text": "No",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dee5fe19-3d0d-44df-bbf3-68f17842bd77",
+      "data": [
+        {
+          "text": "Yes",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e57c8c34-492c-49f2-9732-6f742c92df78",
+  "name": "bbchat-term-amount",
+  "auto": true,
+  "contexts": [
+    "bbchat-term"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-amount",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@yes-no",
+          "name": "yes-no",
+          "value": "$yes-no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Okay. Last question.",
+            "Allright. Last one."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "How much are you planning to spend on this home? Please respond with a number (e.g., 15000)"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

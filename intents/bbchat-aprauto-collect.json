@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "86733284-1fc2-4897-8392-b181b85cde49",
+      "data": [
+        {
+          "text": "5-10%",
+          "alias": "interestrate",
+          "meta": "@interestrate",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea1a8cf9-b2da-41e7-a2cb-428f65f45f60",
+      "data": [
+        {
+          "text": "Below 5%",
+          "alias": "interestrate",
+          "meta": "@interestrate",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "79928213-2d78-48e8-b33f-597fb50a9e55",
+      "data": [
+        {
+          "text": "Above 30%",
+          "alias": "interestrate",
+          "meta": "@interestrate",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7d38a814-9fcd-40d8-95e4-a0ed940b8848",
+  "name": "bbchat-aprauto-collect",
+  "auto": true,
+  "contexts": [
+    "bbchat-autodebt-apr"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-collect",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@interestrate",
+          "name": "interestrate",
+          "value": "$interestrate",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "Has any of that debt been placed with a collection agency?",
+          "replies": [
+            "Yes",
+            "No",
+            "I don\u0027t know"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

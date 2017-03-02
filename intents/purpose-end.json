@@ -1,0 +1,76 @@
+{
+  "userSays": [
+    {
+      "id": "267c67c1-0a3e-47e5-bed1-b417ad6f54be",
+      "data": [
+        {
+          "text": "student loan",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "432fd791-e858-4c60-988d-5a91df89c3a4",
+      "data": [
+        {
+          "text": "car loan",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c8a407e9-ed7a-43a4-b1e0-16d4020de9c9",
+  "name": "purpose-end",
+  "auto": true,
+  "contexts": [
+    "purpose"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Thanks for sharing.",
+            "Appreciate it."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I think one of these calculators will be most helpful for you:"
+        },
+        {
+          "type": 0,
+          "speech": "http://niofe.lendtelligent.com/"
+        },
+        {
+          "type": 0,
+          "speech": "For now I won\u0027t be able to help you out with anything other than a mortgage, but I am working hard to get smarter."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

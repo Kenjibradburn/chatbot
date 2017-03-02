@@ -1,0 +1,16 @@
+{
+  "id": "0073b358-90cf-4ad3-a3f5-c3d2d14fc5d2",
+  "name": "cscorehigh",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Above 680",
+      "synonyms": [
+        "Above 680",
+        "Over 680"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

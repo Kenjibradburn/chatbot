@@ -1,0 +1,38 @@
+{
+  "userSays": [
+    {
+      "id": "ddea2147-ad2f-48b6-8f59-79fa6116c418",
+      "data": [
+        {
+          "text": "Let\u0027s talk"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc09a851-3d38-4f11-9b35-bdca860ddf76",
+  "name": "creditfusion-call",
+  "auto": true,
+  "contexts": [
+    "cscorehigh-incomehigh-creditfusion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "PLACEHOLDER Call"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

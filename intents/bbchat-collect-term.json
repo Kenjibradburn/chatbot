@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "c354af91-c9e0-4aa3-8b02-b82d8512355b",
+      "data": [
+        {
+          "text": "Don\u0027t know",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdafce7e-768d-450a-8102-679511b5d418",
+      "data": [
+        {
+          "text": "No",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d794e2b1-fe52-4aa9-ad4a-6359c55a5d55",
+      "data": [
+        {
+          "text": "Yes",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "aa371709-0da5-4628-965c-5000b653cff5",
+  "name": "bbchat-collect-term",
+  "auto": true,
+  "contexts": [
+    "bbchat-collect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-term",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@yes-no",
+          "name": "yes-no",
+          "value": "$yes-no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "Are you looking for a standard 30-year fixed rate term loan?",
+          "replies": [
+            "Yes",
+            "No",
+            "Not sure"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

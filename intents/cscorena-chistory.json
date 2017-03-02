@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "fbfe164d-e64e-4361-85f2-751206d1d47f",
+      "data": [
+        {
+          "text": "No",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eed7c820-afb8-4131-b166-00eaae484e3e",
+      "data": [
+        {
+          "text": "I don\u0027t know",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "33db481d-2465-4c7a-a8dc-1c154b182900",
+  "name": "cscorena-chistory",
+  "auto": true,
+  "contexts": [
+    "mortgage-cscore"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "chistory",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@yes-no",
+          "name": "yes-no",
+          "value": "$yes-no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "When you are buying a home it is extremely important that you know your credit score. Last minute surprises can cost thousands of dollars or even lead to being denied for your loan. I have a great partnership with FreeScore360 that will let you see all three credit bureau scores for free."
+        },
+        {
+          "title": "In the meantime do you know if there are any lender red-flags in your credit history? Things like late payments on credit cards, collection accounts, bankrutcy, or past due loans?\"",
+          "replies": [
+            "Yes",
+            "No"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "eeac0aab-2bc0-42b1-bb8e-e02d9ea739f0",
+  "name": "income-valid",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "$25,000-50,000",
+      "synonyms": [
+        "$25,000-50,000",
+        "25000-50000",
+        "25k-50k",
+        "50,000"
+      ]
+    },
+    {
+      "value": "$50,000-75,000",
+      "synonyms": [
+        "$50,000-75,000",
+        "50000-75000",
+        "50k-75k",
+        "75,000"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

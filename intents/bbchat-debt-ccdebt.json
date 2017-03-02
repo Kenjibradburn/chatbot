@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "177d02dc-fd47-4eb6-9f34-15a7faa0f557",
+      "data": [
+        {
+          "text": "10k",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e12ddf05-662a-49ad-8298-667fe4bd0d6c",
+      "data": [
+        {
+          "text": "50,000",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d3a7f184-bb96-4b02-94d3-eade1aad6f14",
+      "data": [
+        {
+          "text": "$10,000",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "954517c6-16d7-45c9-a13d-d01d54898a04",
+  "name": "bbchat-debt-ccdebt",
+  "auto": true,
+  "contexts": [
+    "bbchat-debt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "debt-creditcard",
+      "affectedContexts": [
+        {
+          "name": "bbchat-ccdebt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "How much of that debt is on credit cards?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,73 @@
+{
+  "userSays": [
+    {
+      "id": "9e0149d1-a400-4418-840f-776b0766414a",
+      "data": [
+        {
+          "text": "ghysthms@gmail.com",
+          "alias": "email",
+          "meta": "@sys.email",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "995ec907-64a1-4ebb-9daf-64b295617c28",
+      "data": [
+        {
+          "text": "thomas@ghys-projects.com",
+          "alias": "email",
+          "meta": "@sys.email",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a3c72812-7dd7-4ace-ae0c-37b55fd806cf",
+  "name": "bbchat-email-calculator",
+  "auto": true,
+  "contexts": [
+    "bbchat-email"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks for that, check your email within 10 minutes. In the meantime, you can click around with these couple of standard mortgage calculators."
+        },
+        {
+          "title": "All loan calculators",
+          "subtitle": "",
+          "imageUrl": "https://www.borrowsmartanalysis.com/graphics//photos/bc85f760-97ed-4008-b3d8-6db4aae40579.jpg",
+          "buttons": [
+            {
+              "text": "Go to site",
+              "postback": "http://niofe.org/index.aspx?urlname\u003dloancalculators"
+            }
+          ],
+          "type": 1
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "userSays": [],
+  "id": "eec493a7-5b2b-424a-85bf-a313c21d2276",
+  "name": "cscorehigh-income-fb",
+  "auto": false,
+  "contexts": [
+    "cscorehigh-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cscorehigh-income",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "title": "Can you use one of the predefined categories?",
+          "replies": [
+            "Below $25,000",
+            "$25,000-50,000",
+            "$50,000-75,000",
+            "$75,000-100,000",
+            "Above $100,000"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

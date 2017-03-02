@@ -1,0 +1,167 @@
+{
+  "userSays": [
+    {
+      "id": "e130b550-eea2-4668-920e-c5b451fbaf61",
+      "data": [
+        {
+          "text": "go"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4dca4f1b-5091-4880-aa19-ee8ba904761f",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "228e046a-1bc4-4bbe-bb78-cbc5df2d9c8e",
+      "data": [
+        {
+          "text": "hi sensei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66e2fd4c-509c-4cab-b7bf-5053bf4927ea",
+      "data": [
+        {
+          "text": "hey sensei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e94f48e-c8b2-4bc6-b565-5777bcba5e82",
+      "data": [
+        {
+          "text": "hey there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee14beb8-2147-4cce-9e55-a3f6fa5515df",
+      "data": [
+        {
+          "text": "hi there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d1d90767-a6fb-4f58-b84a-5d66c76e785e",
+      "data": [
+        {
+          "text": "good evening"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0df784e3-bf60-4e48-b9a5-738b199e7200",
+      "data": [
+        {
+          "text": "good morning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17719b84-6aca-4b68-9943-bdb39c2a470c",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e076b6da-14b3-4812-9467-4b5453de0cfe",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fcba162-f108-4b14-8431-2270f8d64b64",
+      "data": [
+        {
+          "text": "yo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6c76134b-29a8-4241-bceb-e36556e1ee69",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "42347405-50ff-4741-821d-5567b733afdb",
+  "name": "welcome-mortgage",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "mortgage",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hey what\u0027s up?",
+            "Great to see you.",
+            "How are you today?"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "You\u0027re looking for a mortgage calculator? That\u0027s cool, we have lots of those and I can get you to the right one."
+        },
+        {
+          "title": "Quick question - are you looking for a new mortgage?",
+          "replies": [
+            "Yes",
+            "No"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

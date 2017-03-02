@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "d0baa377-f2b0-4149-89ba-8bf2a997aba0",
+  "name": "bbchat-debt-fb",
+  "auto": false,
+  "contexts": [
+    "bbchat-debt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-debt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I am not sure what you mean.",
+            "Sorry, I missed that"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Can you respond with a number (e.g., 5000)? Thanks."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

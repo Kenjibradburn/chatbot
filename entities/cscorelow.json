@@ -1,0 +1,41 @@
+{
+  "id": "d6f7119d-a111-44c1-bc5d-158b76f67dac",
+  "name": "cscorelow",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Below 550",
+      "synonyms": [
+        "Below 550"
+      ]
+    },
+    {
+      "value": "550-620",
+      "synonyms": [
+        "550-620"
+      ]
+    },
+    {
+      "value": "620-640",
+      "synonyms": [
+        "620-640"
+      ]
+    },
+    {
+      "value": "640-680",
+      "synonyms": [
+        "640-680"
+      ]
+    },
+    {
+      "value": "I don\u0027t know",
+      "synonyms": [
+        "I don\u0027t know",
+        "don\u0027t know",
+        "no idea"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

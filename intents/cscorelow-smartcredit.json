@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "ebc8da3a-8ba6-491b-bafc-63c40e852389",
+      "data": [
+        {
+          "text": "Below $25,000",
+          "alias": "income-low",
+          "meta": "@income-low",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "0fcb1d86-5dc9-4f96-9a1f-fc50cc23ca8c",
+  "name": "cscorelow-smartcredit",
+  "auto": true,
+  "contexts": [
+    "cscorelow-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@income-low",
+          "name": "income-low",
+          "value": "$income-low",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "With your current credit score and income, it is going to be challenging to get a mortgage loan at a reasonable interest rate. I would suggest making sure there is nothing on your credit report that is artificially lowering your score. Though our partnership with Smart Credit you can get a copy of your credit report and file disputes on any wrong information for no additional cost. I recommend you take a look at your credit and hold off on a mortgage loan until your scores are above 680."
+        },
+        {
+          "type": 0,
+          "speech": "https://www.smartcredit.com/"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,75 @@
+{
+  "userSays": [
+    {
+      "id": "2c2b030c-cc84-4aa5-8d08-128f366b46ba",
+      "data": [
+        {
+          "text": "later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fff98558-a6fe-4c41-8b84-a584f7e76fed",
+      "data": [
+        {
+          "text": "Not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71bdf823-77aa-4297-b0b9-ec105b7cadbd",
+      "data": [
+        {
+          "text": "Not right now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "eef4ee43-a663-4128-aae4-bb83504409dc",
+  "name": "creditfusion-callback",
+  "auto": true,
+  "contexts": [
+    "cscorehigh-incomehigh-creditfusion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "callback",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sure!",
+            "I see.",
+            "No problem"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "All I need is your first name, phone number, and email address and I\u0027ll get a call scheduled."
+        },
+        {
+          "type": 0,
+          "speech": "Let\u0027s start with your first name."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

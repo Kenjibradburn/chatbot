@@ -1,0 +1,18 @@
+{
+  "id": "03454516-424c-424f-8559-fdb840e6dae9",
+  "name": "income-25-50k",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "$25,000-50,000",
+      "synonyms": [
+        "$25,000-50,000",
+        "25k-50k",
+        "25000-50000",
+        "$25000-50000"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "80c1d5dc-4e3f-43e9-bb94-82515d371d08",
+      "data": [
+        {
+          "text": "chat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "723d30cb-910e-4dc3-aed3-da7579797245",
+      "data": [
+        {
+          "text": "continue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62d1eca1-cc4c-434c-af0a-d76b1ae0ef5c",
+      "data": [
+        {
+          "text": "continue chat"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "69026c3a-3e1c-4dd2-9b2a-fea7bb7c19f3",
+  "name": "bbchat-debt",
+  "auto": true,
+  "contexts": [
+    "bradburn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-debt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No problem!"
+        },
+        {
+          "type": 0,
+          "speech": "If you want to talk to them at any time let me know and I\u0027m happy to get you a direct phone number for a credit expert. I just have a couple more questions."
+        },
+        {
+          "type": 0,
+          "speech": "Approximately how much debt do you have? You can just type in a number (e.g., 10000)."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

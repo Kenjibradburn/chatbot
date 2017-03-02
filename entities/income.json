@@ -1,0 +1,42 @@
+{
+  "id": "0d2db4ec-a666-41f2-a0ea-ba822f742125",
+  "name": "income",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Below $25,000",
+      "synonyms": [
+        "Below $25,000"
+      ]
+    },
+    {
+      "value": "$25,000-50,000",
+      "synonyms": [
+        "$25,000-50,000",
+        "25000-50000"
+      ]
+    },
+    {
+      "value": "$50,000-75,000",
+      "synonyms": [
+        "$50,000-75,000",
+        "50000-75000"
+      ]
+    },
+    {
+      "value": "$75,000-100,000",
+      "synonyms": [
+        "$75,000-100,000",
+        "75000-100000"
+      ]
+    },
+    {
+      "value": "Over $100,000",
+      "synonyms": [
+        "Over $100,000"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

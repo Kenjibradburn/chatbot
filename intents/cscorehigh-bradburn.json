@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "15d8034a-2f46-40b6-9824-9b6441d12c57",
+      "data": [
+        {
+          "text": "$25,000-50,000",
+          "alias": "income-25-50k",
+          "meta": "@income-25-50k",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "08a6f256-8724-4dda-a494-a555b0c59995",
+  "name": "cscorehigh-bradburn",
+  "auto": true,
+  "contexts": [
+    "cscorehigh-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bradburn",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@income-25-50k",
+          "name": "income-25-50k",
+          "value": "$income-25-50k",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your credit score is on the low side of qualifying you for a mortgage, but that\u0027s okay. I talk to people in your situation every day and generally I recommend a credit report consultation with a credit sensei before we talk about interest rates and mortgage calculations. Once we\u0027re sure you\u0027ll qualify at a reasonable interest rate we can take a closer look at true mortgage costs."
+        },
+        {
+          "title": "Would you like to start a phone consultation right now or start a consultation through this chat?",
+          "replies": [
+            "speak to a rep",
+            "continue chat"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,48 @@
+{
+  "userSays": [],
+  "id": "110402a0-ded6-4146-af95-7bab9c2eb783",
+  "name": "bbchat-autodebt-apr-fb",
+  "auto": false,
+  "contexts": [
+    "bbchat-autodebt-apr"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-autodebt-apr",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I didn\u0027t quite get that.",
+            "I missed that."
+          ]
+        },
+        {
+          "title": "Can you respond by using one of the categories?",
+          "replies": [
+            "Below 5%5",
+            "5%-10%",
+            "11%-20%",
+            "21%-30%",
+            "Above 30%",
+            "I don\u0027t know",
+            "Doesn\u0027t apply"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "03a8dd07-74b7-493d-b45b-d6f4c095ef1d",
+  "name": "interestrate",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Below 5%",
+      "synonyms": [
+        "Below 5%",
+        "Below 5"
+      ]
+    },
+    {
+      "value": "5%-10%",
+      "synonyms": [
+        "5%-10%",
+        "5-10"
+      ]
+    },
+    {
+      "value": "11%-20%",
+      "synonyms": [
+        "11%-20%",
+        "11-20"
+      ]
+    },
+    {
+      "value": "21%-30%",
+      "synonyms": [
+        "21%-30%",
+        "21-30"
+      ]
+    },
+    {
+      "value": "Above 30%",
+      "synonyms": [
+        "Above 30%",
+        "Above 30"
+      ]
+    },
+    {
+      "value": "I don\u0027t know",
+      "synonyms": [
+        "I don\u0027t know",
+        "don\u0027t know",
+        "no"
+      ]
+    },
+    {
+      "value": "Does not apply",
+      "synonyms": [
+        "Doesn\u0027t apply",
+        "Does not apply",
+        "Not applicable"
+      ]
+    },
+    {
+      "value": "21-30%",
+      "synonyms": [
+        "21-30%"
+      ]
+    },
+    {
+      "value": "5-10%",
+      "synonyms": [
+        "5-10%"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

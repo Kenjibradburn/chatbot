@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "4c861973-bfa9-49e0-a3f1-647b6ae39d4f",
+      "data": [
+        {
+          "text": "speak to a rep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "45cd8162-ea96-4762-9c9d-98d661039860",
+  "name": "bbrep-call",
+  "auto": true,
+  "contexts": [
+    "bradburn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbrep",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great! You can talk to them anytime. To be clear, this is a no-cost consultation for you. They will pull a certified copy of your Transunion credit report, go through it with you on the phone, and help identify any red flags that will increase your interest rate or deny you all together for your loan. You can ask them any questions you have about your unique credit situation."
+        },
+        {
+          "title": "Are you ready to speak with them now, or would you rather schedule a consultation for tomorrow?",
+          "replies": [
+            "Call now",
+            "Get callback"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

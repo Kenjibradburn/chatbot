@@ -1,0 +1,90 @@
+{
+  "userSays": [
+    {
+      "id": "b6abe297-eb08-4db0-902c-d7c4dbd44317",
+      "data": [
+        {
+          "text": "640-680",
+          "alias": "cscorelow",
+          "meta": "@cscorelow",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "97a0531e-ac95-48f5-bc63-7472b9da11ab",
+      "data": [
+        {
+          "text": "620-640",
+          "alias": "cscorelow",
+          "meta": "@cscorelow",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6981446-9220-4dd6-9c5e-c12ce548109b",
+      "data": [
+        {
+          "text": "550-620",
+          "alias": "cscorelow",
+          "meta": "@cscorelow",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2ccd0858-72d3-46db-a900-35b4ca2a7623",
+  "name": "cscorelow-income",
+  "auto": true,
+  "contexts": [
+    "mortgage-cscore"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cscorelow-income",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@cscorelow",
+          "name": "cscorelow",
+          "value": "$cscorelow",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Got it!"
+        },
+        {
+          "title": "The next critical factor is your household income - pick the range you\u0027re in.",
+          "replies": [
+            "below $25,000",
+            "$25,000-50,000",
+            "$50,000-75,000",
+            "$75,000-100,000",
+            "Above $100,000"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "a9e3ca9b-6d3c-462c-9ccf-3b154d17b350",
+  "name": "bbchat-amount-email-fb",
+  "auto": false,
+  "contexts": [
+    "bbchat-amount-email"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-amount-email",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I didn\u0027t manage to note your email based on that. One more time?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

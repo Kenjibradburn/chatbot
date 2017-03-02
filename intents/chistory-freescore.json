@@ -1,0 +1,56 @@
+{
+  "userSays": [
+    {
+      "id": "93e70f4d-a0e7-44f6-b7b3-e9e0580f5c91",
+      "data": [
+        {
+          "text": "No",
+          "alias": "yes-no",
+          "meta": "@yes-no",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "a56306c9-8d93-4b34-af47-4d634d17a790",
+  "name": "chistory-freescore",
+  "auto": true,
+  "contexts": [
+    "chistory"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@yes-no",
+          "name": "yes-no",
+          "value": "$yes-no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Good to know."
+        },
+        {
+          "type": 0,
+          "speech": "Let\u0027s just make sure we know your score before we get too far down the mortgage path. Here\u0027s the link to FreeScore360 I was telling you about,"
+        },
+        {
+          "type": 0,
+          "speech": "PLACEHOLDER: Link to freescore360"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

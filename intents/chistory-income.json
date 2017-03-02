@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "e17b5e5b-f33f-4ba1-a7fc-adcc0284d37b",
+      "data": [
+        {
+          "text": "y"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5274c98-6320-4471-bd0f-8693d025e25d",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c50f576e-44a3-4272-8a87-0d11c07ab129",
+  "name": "chistory-income",
+  "auto": true,
+  "contexts": [
+    "chistory"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cscorelow-income",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, that may cause an issue in the loan process, but that\u0027s okay. I talk to people in your situation every day and generally I recommend a credit report consultation with a credit sensei before we talk about interest rates and mortgage calculations. Once we\u0027re sure you\u0027ll qualify at a reasonable interest rate we can take a closer look at true mortgage costs."
+        },
+        {
+          "title": "I will first need to check your household income. Can you tell me which range you are in?",
+          "replies": [
+            "Below $25,000",
+            "$25,000-50,000",
+            "$50,000-75,000",
+            "$75,000-100,000",
+            "Above $100,000"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

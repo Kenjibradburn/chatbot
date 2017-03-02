@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "02845223-b804-4836-b613-42cc405e2e5c",
+      "data": [
+        {
+          "text": "75000-100000",
+          "alias": "income-above25k",
+          "meta": "@income-above25k",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d69aa225-0e3b-4a54-86d4-2adabdbeb50c",
+      "data": [
+        {
+          "text": "$75,000-100,000",
+          "alias": "income-above25k",
+          "meta": "@income-above25k",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3e9a71d-35fb-4993-a4be-3a2bcf8d96e4",
+      "data": [
+        {
+          "text": "$50,000-75,000",
+          "alias": "income-above25k",
+          "meta": "@income-above25k",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "24aa17eb-bffc-472e-8578-b8921896e227",
+      "data": [
+        {
+          "text": "$25,000-50,000",
+          "alias": "income-above25k",
+          "meta": "@income-above25k",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fff3aa9d-157e-4bba-a757-f85a77241063",
+  "name": "cscorelow-bradburn",
+  "auto": true,
+  "contexts": [
+    "cscorelow-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bradburn",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@income-above25k",
+          "name": "income-above25k",
+          "value": "$income-above25k",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks."
+        },
+        {
+          "type": 0,
+          "speech": "Your credit score is on the low side of qualifying you for a mortgage, but that\u0027s okay. I talk to people in your situation every day and generally I recommend a credit report consultation with a credit sensei before we talk about interest rates and mortgage calculations. Once we\u0027re sure you\u0027ll qualify at a reasonable interest rate we can take a closer look at true mortgage costs."
+        },
+        {
+          "title": "Would you like to start a phone consultation right now or start a consultation through this chat?",
+          "replies": [
+            "speak to a rep",
+            "continue chat"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "e9ce3809-4d1d-4583-b9d8-04b17d593ff9",
+      "data": [
+        {
+          "text": "21-30%",
+          "alias": "interestrate",
+          "meta": "@interestrate",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54084721-e919-424d-8bcc-de61a03d5384",
+      "data": [
+        {
+          "text": "Above 30%",
+          "alias": "interestrate",
+          "meta": "@interestrate",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fd31ffa8-faf5-4803-8085-dfef32c45ba1",
+  "name": "bbchat-aprcredit-autodebt",
+  "auto": true,
+  "contexts": [
+    "bbchat-ccdebt-apr"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-autodebt",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@interestrate",
+          "name": "interestrate",
+          "value": "$interestrate",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "And how much of that debt is on your automobile loan?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

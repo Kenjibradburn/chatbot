@@ -1,0 +1,26 @@
+{
+  "id": "96c5ccb5-1a5f-43ae-94da-b926e5ee1149",
+  "name": "income-high",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "$75,000-100,000",
+      "synonyms": [
+        "$75,000-100,000",
+        "75000-100000",
+        "75k-100k"
+      ]
+    },
+    {
+      "value": "Above $100,000",
+      "synonyms": [
+        "Above $100,000",
+        "Over $100,000",
+        "above 100000",
+        "above $100000"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

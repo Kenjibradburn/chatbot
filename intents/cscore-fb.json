@@ -1,0 +1,47 @@
+{
+  "userSays": [],
+  "id": "1154422c-cd06-470a-9fd8-ce349d63597f",
+  "name": "cscore-fb",
+  "auto": false,
+  "contexts": [
+    "mortgage-cscore"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "mortgage-cscore",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I am not sure how to interpret that.",
+            "Sorry, I missed that"
+          ]
+        },
+        {
+          "title": "Can you use one of the predefined categories?",
+          "replies": [
+            "Below 550",
+            "550-620",
+            "620-640",
+            "640-680",
+            "Above 680",
+            "I don\u0027t know"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

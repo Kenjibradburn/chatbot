@@ -1,0 +1,47 @@
+{
+  "userSays": [],
+  "id": "31011d79-9050-4df4-9612-73fd7e05674d",
+  "name": "cscorelow-income-fb",
+  "auto": false,
+  "contexts": [
+    "cscorelow-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cscorelow-income",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry, I didn\u0027t get that.",
+            "I am not sure what you mean.",
+            "Sorry, I didn\u0027t capture that."
+          ]
+        },
+        {
+          "title": "Would you mind using one of the categories below?",
+          "replies": [
+            "Below $25,000",
+            "$25,000-50,000",
+            "$50,000-75,000",
+            "$75,000-100,000",
+            "Above $100,000"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

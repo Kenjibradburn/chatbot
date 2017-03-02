@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "34804fc4-a365-456a-953b-c1c64e71454c",
+      "data": [
+        {
+          "text": "Don\u0027t know",
+          "alias": "debt-na",
+          "meta": "@debt-na",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8007b97e-f063-4934-8562-1991d68b6924",
+      "data": [
+        {
+          "text": "Dont know",
+          "alias": "debt-na",
+          "meta": "@debt-na",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49d041ca-8460-4773-9025-73ebd7f171b0",
+      "data": [
+        {
+          "text": "0",
+          "alias": "debt-na",
+          "meta": "@debt-na",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "807dac66-f1e7-474b-b257-0894ec5c4ed2",
+  "name": "bbchat-debtna-term",
+  "auto": true,
+  "contexts": [
+    "bbchat-debt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-term",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@debt-na",
+          "name": "debt-na",
+          "value": "$debt-na",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "title": "Are you looking for a standard 30-year fixed rate term?",
+          "replies": [
+            "Yes",
+            "No",
+            "Not sure"
+          ],
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

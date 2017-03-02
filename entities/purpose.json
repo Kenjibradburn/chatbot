@@ -1,0 +1,24 @@
+{
+  "id": "c5b37833-4625-4fde-ab38-9b0e6202478c",
+  "name": "purpose",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "car",
+      "synonyms": [
+        "car loan",
+        "pay for car",
+        "car"
+      ]
+    },
+    {
+      "value": "student loan",
+      "synonyms": [
+        "student loan",
+        "refinancing student loan"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

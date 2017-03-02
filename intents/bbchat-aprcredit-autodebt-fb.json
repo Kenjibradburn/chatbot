@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "d8546c38-4a3e-4a83-b94c-738f64a4ad90",
+  "name": "bbchat-aprcredit-autodebt-fb",
+  "auto": false,
+  "contexts": [
+    "bbchat-aprcredit-autodebt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-aprcredit-autodebt",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry, I didn\u0027t quite get that",
+            "I am not sure what you mean"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Can you respond with a number (e.g., 5000)? Thanks."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

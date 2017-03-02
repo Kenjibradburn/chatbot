@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "80b17eb4-3b02-4b1d-9dce-4f3d235c56db",
+      "data": [
+        {
+          "text": "5000",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d0d5139b-64b7-40b6-9921-5e575abaaea6",
+      "data": [
+        {
+          "text": "15000",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e5662e5c-aec8-4cbc-8ec5-79c08c6f0715",
+  "name": "bbchat-amount-email",
+  "auto": true,
+  "contexts": [
+    "bbchat-amount"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bbchat-email",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Excellent.",
+            "Awesome."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Now I have everything I should need. I will run the numbers now and send you an email with my exact recommendations."
+        },
+        {
+          "type": 0,
+          "speech": "Which email should I send that to?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
