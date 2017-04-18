@@ -3,5 +3,5 @@ module.exports = {
     FB_VERIFY_TOKEN: '7c34873779418f40ceccc252802e93ba',
     API_AI_CLIENT_ACCESS_TOKEN: '23ea51be928d4f5f989456b54b5fb972',
     FB_APP_SECRET: 'Bradburn2017',
-    SERVER_URL: "https://kenjibradburn.herokuapp.com/",
+    SERVER_URL: "https://kenjibradburn.herokuapp.com/webhook/",
 };
